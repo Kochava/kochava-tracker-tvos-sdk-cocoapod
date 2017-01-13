@@ -1,0 +1,16 @@
+PODS:
+  - KochavaTrackerTVOS (0.1.0)
+
+DEPENDENCIES:
+  - KochavaTrackerTVOS (from `../`)
+
+EXTERNAL SOURCES:
+  KochavaTrackerTVOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KochavaTrackerTVOS: d0132960eedbe9ab8423bb6fd3647a078150fe3d
+
+PODFILE CHECKSUM: daaff4e5470be76cc6816f15453d4891a62b1424
+
+COCOAPODS: 1.2.0.beta.3
