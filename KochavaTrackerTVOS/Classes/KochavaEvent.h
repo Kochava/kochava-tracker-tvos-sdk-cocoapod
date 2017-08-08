@@ -58,6 +58,10 @@
 
 #define TRKWLEventTypeEnumAdView TRKWL_CLASS(EventTypeEnumAdView)
 
+#define TRKWLEventTypeEnumPushReceived TRKWL_CLASS(EventTypeEnumPushReceived)
+
+#define TRKWLEventTypeEnumPushOpened TRKWL_CLASS(EventTypeEnumPushOpened)
+
 
 
 #define TRKWLEvent TRKWL_CLASS(Event)
@@ -305,11 +309,40 @@ typedef NS_ENUM(NSUInteger, KochavaEventTypeEnum)
      @discussion This is an enumerated value which signifies that an ad was viewed.  You may use this in any equivalent circumstance.
      */
     KochavaEventTypeEnumAdView = 111,
+    
+    
+    
+    /*!
+     @brief Push Received
+     
+     @discussion This is an enumerated value which signifies that a push notification was received.
+     */
+    KochavaEventTypeEnumPushReceived = 112,
+    
+    
+    
+    /*!
+     @brief Push Opened
+     
+     @discussion This is an enumerated value which signifies that a push notification was opened.
+     */
+    KochavaEventTypeEnumPushOpened = 113,
 };
 
 
 
 #pragma mark - PARAMETERS
+
+
+
+/*!
+ @property actionString
+ 
+ @brief A property containing an action string.
+ 
+ @discussion This field has a somewhat generic quality, in that it can contain whatever you consider to be fitting value.
+ */
+@property (strong, nonatomic, nullable) NSString *actionString;
 
 
 
@@ -435,6 +468,17 @@ typedef NS_ENUM(NSUInteger, KochavaEventTypeEnum)
 
 
 /*!
+ @property backgroundBoolNumber
+ 
+ @brief A property containing a boolean wrapped in an NSNumber which indicates that something is background.
+ 
+ @discussion This is expected to contain a boolean which indicates if something is background, or occurred while in the background.  This field has a somewhat generic quality, in that it can contain whatever you consider to be fitting value.
+ */
+@property (strong, nonatomic, nullable) NSNumber *backgroundBoolNumber;
+
+
+
+/*!
  @property checkoutAsGuestString
  
  @brief A property indicating whether a checkout took place as a guest.
@@ -442,6 +486,17 @@ typedef NS_ENUM(NSUInteger, KochavaEventTypeEnum)
  @discussion This is generally taken to be a boolean, but it is passed as a string so that you can provide more than two states.  Suggested values are "true" and "false", but can also be values such as "yes", "no", or "partial".
  */
 @property (strong, nonatomic, nullable) NSString *checkoutAsGuestString;
+
+
+
+/*!
+ @property completedBoolNumber
+ 
+ @brief A property containing a boolean wrapped in an NSNumber which indicates that something is completed.
+ 
+ @discussion This is expected to contain a boolean which indicates if something is completed.  This field has a somewhat generic quality, in that it can contain whatever you consider to be fitting value.
+ */
+@property (strong, nonatomic, nullable) NSNumber *completedBoolNumber;
 
 
 
@@ -659,6 +714,17 @@ typedef NS_ENUM(NSUInteger, KochavaEventTypeEnum)
 
 
 /*!
+ @property payloadDictionary
+ 
+ @brief A property that contains a payload in the form of a dictionary.
+ 
+ @discussion This field has a somewhat generic quality, in that it can contain whatever you consider to be fitting value.
+ */
+@property (strong, nonatomic, nullable) NSDictionary *payloadDictionary;
+
+
+
+/*!
  @property priceDoubleNumber
  
  @brief A property that contains a price.  It is a double that is wrapped in an NSNumber.
@@ -856,29 +922,7 @@ typedef NS_ENUM(NSUInteger, KochavaEventTypeEnum)
 
 
 
-#pragma mark - PROPERTIES
-
-
-
-/*!
- @property - standardBool
- 
- @brief Indicates if the event only contained standardized parameters.
- */
-@property (readonly) BOOL standardBool;
-
-
-
 #pragma mark - METHODS
-
-
-
-/*!
- @method - serverEventActionString
- 
- @brief A method that returns the event action which is suitable to send to the server (internal).
- */
-- (nonnull NSString *)serverEventActionString;
 
 
 
