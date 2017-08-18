@@ -421,21 +421,6 @@ extern NSString * _Nonnull const kKVALogLevelEnumTrace;
 
 
 /*!
- @method - sendEventWithNameString:infoString:appStoreReceiptBase64EncodedString:
- 
- @brief A method to queue a post-install event with a receipt to be sent to server.
- 
- @param nameString String containing event title or key of key/value pair.
- 
- @param infoString String containing event value or value of key/value pair.  It may be an unnested (single dimensional) dictionary converted to a JSON formatted string.
- 
- @param appStoreReceiptBase64EncodedString String containing an App Store base64 encoded receipt.
- */
-- (void)sendEventWithNameString:(nonnull NSString *)nameString infoString:(nullable NSString *)infoString appStoreReceiptBase64EncodedString:(nonnull NSString *)appStoreReceiptBase64EncodedString;
-
-
-
-/*!
  @method - sendIdentityLinkWithDictionary:
  
  @brief A method to queue an Identity Link event to be sent to server.
@@ -714,6 +699,23 @@ extern NSString * _Nonnull const kKVALogLevelEnumTrace;
     
 - (void)trackWatchEvent:(nonnull NSString *)titleString :(nullable NSString *)valueString
     KOCHAVA_DEPRECATED("Please instead use sendWatchEventWithNameString:infoString:.  In Swift: sendWatchEvent(withNameString:infoString:)");
+
+
+
+/*!
+ @method - sendEventWithNameString:infoString:appStoreReceiptBase64EncodedString:
+ 
+ @brief A method to queue a post-install event with a receipt to be sent to server.
+ 
+ @param nameString String containing event title or key of key/value pair.
+ 
+ @param infoString String containing event value or value of key/value pair.  It may be an unnested (single dimensional) dictionary converted to a JSON formatted string.
+ 
+ @param appStoreReceiptBase64EncodedString String containing an App Store base64 encoded receipt.
+ 
+ @discussion This method has been deprecated and is scheduled to be permanently removed in v4.0 of this SDK.  Please instead use sendEvent:.  In Swift: send(_ event:)
+ */
+- (void)sendEventWithNameString:(nonnull NSString *)nameString infoString:(nullable NSString *)infoString appStoreReceiptBase64EncodedString:(nonnull NSString *)appStoreReceiptBase64EncodedString KOCHAVA_DEPRECATED("Please instead use sendEvent:.  In Swift: send(_ event:).  Create a KochavaEvent and pass the appStoreReceiptBase64EncodedString using the standard parameter.  You may use KochavaEventTypeEnumPurchase, and set any of the other applicable standard parameters.");
 
 
     
