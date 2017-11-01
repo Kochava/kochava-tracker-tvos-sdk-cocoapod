@@ -8,7 +8,7 @@
 
 
 
-#if REVEAL_TARGET == 1
+#if WHTLBL_REVEAL_TARGET == 1
 
 #warning KochavaTracker.h: libKochavaTrackerTVOS
 
@@ -17,7 +17,6 @@
 
 
 #pragma mark - IMPORT
-
 
 
 #import <Foundation/Foundation.h>
@@ -32,7 +31,7 @@
 
 
 
-#if REVEAL_TARGET == 1
+#if WHTLBL_REVEAL_TARGET == 1
 
 #define KOCHAVA_DEPRECATED(MSG) /*__attribute__((deprecated(MSG)))*/
 
@@ -376,6 +375,21 @@ extern NSString * _Nonnull const kKVALogLevelEnumTrace;
  @endcode
  */
 - (nullable id)initWithParametersDictionary:(nonnull NSDictionary *)parametersDictionary delegate:(nullable id<KochavaTrackerDelegate>)delegate;
+
+
+
+#pragma mark - INSTANCE PROPERTIES
+
+
+
+/*!
+ @property sleepBool
+ 
+ @brief A boolean which when true (YES) causes the tracker to sleep.
+ 
+ @discussion The default is false (NO).  When set to true (YES), this causes tasks to effectively be suspended until this condition is lifted.  While this is set to true, tasks are not lost per-say;  however, if a task may have otherwise occurred multiple times, it may be represented only once once the condition is lifted.
+ */
+@property BOOL sleepBool;
 
 
 
