@@ -3,7 +3,7 @@
 //  KochavaTracker
 //
 //  Created by John Bushnell on 9/13/16.
-//  Copyright © 2017 Kochava, Inc. All rights reserved.
+//  Copyright © 2017 - 2018 Kochava, Inc. All rights reserved.
 //
 
 
@@ -116,6 +116,8 @@
 
 @property (strong, nonatomic, nullable) NSString *originString;
 
+@property (strong, nonatomic, nullable) NSDecimalNumber *priceDecimalNumber;
+
 @property (strong, nonatomic, nullable) NSNumber *priceDoubleNumber;
 
 @property (strong, nonatomic, nullable) NSNumber *quantityDoubleNumber;
@@ -167,7 +169,7 @@
  
  @brief A class that stores standardized parameters for an event.
  
- @discussion This class is used to store and pass standardized parameters when sending a post-install event to the server.  The proper use of this class is to instantiate an object using the designated initializer, and then to assign values to each property that you wish to send.  You may then pass this object as a parameter to sendEvent.
+ @discussion This class is used to store and pass standardized parameters when sending an event to the server.  The proper use of this class is to instantiate an object using the designated initializer, and then to assign values to each property that you wish to send.  You may then pass this object as a parameter to sendEvent.
  
  Inherits from: NSObject
  
@@ -327,6 +329,9 @@ typedef NS_ENUM(NSUInteger, KochavaEventTypeEnum)
      @discussion This is an enumerated value which signifies that a push notification was opened.
      */
     KochavaEventTypeEnumPushOpened = 113,
+    
+    
+    
 };
 
 
@@ -725,6 +730,17 @@ typedef NS_ENUM(NSUInteger, KochavaEventTypeEnum)
 
 
 /*!
+ @property priceDecimalNumber
+ 
+ @brief A property that contains a price.
+ 
+ @discussion This field has a somewhat generic quality, in that it can contain whatever you consider to be fitting value.  Because it uses an NSDecimalNumber, it is better suited for preserving decimal precision than priceDoubleNumber.  priceDecimalNumber and priceDoubleNumber share the same key when sent to the server.  If both are set, the value within priceDecimalNumber will win.
+ */
+@property (strong, nonatomic, nullable) NSDecimalNumber *priceDecimalNumber;
+
+
+
+/*!
  @property priceDoubleNumber
  
  @brief A property that contains a price.  It is a double that is wrapped in an NSNumber.
@@ -922,7 +938,7 @@ typedef NS_ENUM(NSUInteger, KochavaEventTypeEnum)
 
 
 
-#pragma mark - METHODS
+#pragma mark - GENERAL
 
 
 
@@ -944,7 +960,7 @@ typedef NS_ENUM(NSUInteger, KochavaEventTypeEnum)
 
 
 
-#pragma mark - CLASS METHODS
+#pragma mark - CLASS GENERAL
 
 
 
