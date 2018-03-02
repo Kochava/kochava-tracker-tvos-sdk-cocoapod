@@ -175,7 +175,7 @@
  
  @author John Bushnell
  
- @copyright 2017 Kochava, Inc.
+ @copyright 2017 - 2018 Kochava, Inc.
  */
 @interface KochavaEvent : NSObject <KochavaEventJSExport>
 
