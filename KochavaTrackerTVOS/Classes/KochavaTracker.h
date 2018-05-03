@@ -23,7 +23,17 @@
 
 #import <JavaScriptCore/JavaScriptCore.h>
 
+#import "KVAContext.h"
+
+#import "KVAFromObjectProtocol.h"
+
+#import "KVAAsForContextObjectProtocol.h"
+
 #import "KochavaEvent.h"
+
+#import "KVAConsent.h"
+
+#import "KVAPartner.h"
 
 
 
@@ -48,6 +58,10 @@
 
 
 @class KochavaTracker;
+
+@class KochavaEvent;
+
+@class KVAConsent;
 
 
 
@@ -92,6 +106,8 @@
 - (void)configureWithParametersDictionary:(nonnull NSDictionary *)parametersDictionary delegate:(nullable id<KochavaTrackerDelegate>)delegate;
 
 - (nullable id)initWithParametersDictionary:(nonnull NSDictionary *)parametersDictionary delegate:(nullable id<KochavaTrackerDelegate>)delegate;
+
+- (void)invalidate;
 
 - (void)sendEvent:(nonnull KochavaEvent *)event;
 
@@ -174,6 +190,17 @@ extern NSString * _Nonnull const kKVAParamCustomIdStringKey KOCHAVA_DEPRECATED("
  @discussion The corresponding value should be a dictionary.
  */
 extern NSString * _Nonnull const kKVAParamIdentityLinkDictionaryKey;
+
+
+
+/*!
+ @constant kKVAParamConsentIntelligentManagementBoolKey
+ 
+ @brief A constant to use for the key when passing the parameter to the tracker to set the intelligent consent management boolean.
+ 
+ @discussion The corresponding value should be a boolean wrapped in an NSNumber.  The default is false.
+ */
+extern NSString * _Nonnull const kKVAParamConsentIntelligentManagementBoolKey;
 
 
 
@@ -388,7 +415,29 @@ extern NSString * _Nonnull const kKVALogLevelEnumTrace;
 
 
 
+/*!
+ @method - invalidate
+ 
+ @brief Invalidates the tracker.
+ 
+ @discussion This is similar to allowing an instance of the tracker deallocate, but it can also be used on the singleton shared instance.  It will additionally signal certain sub-systems to invalidate themselves, which can result in a more immediate halt.  The scope of this invalidation is not absolute.  Certain sub-systems will continue to run for a period of time until they may gracefully complete.  When using this method with the singleton shared instance, you are guaranteed to be re-defaulted a new instance the next time it is referenced, and you may immediately move forward to configure it.
+ 
+ When you are not using Intelligent Consent Management, this method can be used to signal that the tracker may no longer run following consent having been denied.  When used this way, you may re-configure a tracker if/when consent is granted.  See KVAConsent.intelligentManagementBool.
+ */
+- (void)invalidate;
+
+
+
 #pragma mark - PROPERTIES
+
+
+
+/*!
+ @property consent
+ 
+ @brief A property containing consent information.
+ */
+@property (strong, nonatomic, nonnull, readonly) KVAConsent *consent;
 
 
 
