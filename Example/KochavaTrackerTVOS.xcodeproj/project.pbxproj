@@ -62,7 +62,7 @@
 		7862A600F3DF3B5B9A9B262F /* Pods-KochavaTrackerTVOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KochavaTrackerTVOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KochavaTrackerTVOS_Tests/Pods-KochavaTrackerTVOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8A73359401CB192B4CB5BF58 /* Pods_KochavaTrackerTVOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KochavaTrackerTVOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97ADCF3E59D1946422C12C45 /* Pods-KochavaTrackerTVOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KochavaTrackerTVOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KochavaTrackerTVOS_Example/Pods-KochavaTrackerTVOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E40DBA54097C6512E62A88A1 /* KochavaTrackerTVOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KochavaTrackerTVOS.podspec; path = ../KochavaTrackerTVOS.podspec; sourceTree = "<group>"; };
+		E40DBA54097C6512E62A88A1 /* KochavaTrackerTVOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KochavaTrackerTVOS.podspec; path = ../KochavaTrackerTVOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F245FC421E285991007859DE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F8AD0DB853A48139E6131C4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,8 +204,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				F500211F10197E6961E97FD4 /* [CP] Embed Pods Frameworks */,
-				7D8C331154F1F641947C53DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,8 +222,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				1FFA3A9CF9AE8655FFE54209 /* [CP] Embed Pods Frameworks */,
-				EF4DB800E8A244CC80FC6C83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -296,21 +292,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1FFA3A9CF9AE8655FFE54209 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KochavaTrackerTVOS_Tests/Pods-KochavaTrackerTVOS_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		457587F5DEB9F6153FA86E8B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -345,51 +326,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7D8C331154F1F641947C53DF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KochavaTrackerTVOS_Example/Pods-KochavaTrackerTVOS_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EF4DB800E8A244CC80FC6C83 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KochavaTrackerTVOS_Tests/Pods-KochavaTrackerTVOS_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F500211F10197E6961E97FD4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KochavaTrackerTVOS_Example/Pods-KochavaTrackerTVOS_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
