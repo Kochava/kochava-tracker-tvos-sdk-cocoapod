@@ -1,5 +1,5 @@
 PODS:
-  - KochavaTrackerTVOS (3.10.0)
+  - KochavaTrackerTVOS (3.11.1)
 
 DEPENDENCIES:
   - KochavaTrackerTVOS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KochavaTrackerTVOS: d9d2668eb13f0155bd493ea00a73fd11256fed91
+  KochavaTrackerTVOS: c30c33cc05cd60b6a191787ffd9d56e13d26b053
 
 PODFILE CHECKSUM: daaff4e5470be76cc6816f15453d4891a62b1424
 
