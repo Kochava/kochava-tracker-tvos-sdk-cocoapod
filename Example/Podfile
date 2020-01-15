@@ -1,5 +1,7 @@
 use_frameworks!
 
+platform :tvos, '9.0'
+
 target 'KochavaTrackerTVOS_Example' do
   pod 'KochavaTrackerTVOS', :path => '../'
 
