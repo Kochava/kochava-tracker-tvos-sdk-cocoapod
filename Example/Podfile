@@ -5,9 +5,4 @@ platform :tvos, '9.0'
 target 'KochavaTrackerTVOS_Example' do
   pod 'KochavaTrackerTVOS', :path => '../'
 
-  target 'KochavaTrackerTVOS_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

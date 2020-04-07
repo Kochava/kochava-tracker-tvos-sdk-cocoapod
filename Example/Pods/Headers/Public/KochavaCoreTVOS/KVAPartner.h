@@ -1,0 +1,1 @@
+../../../KochavaCoreTVOS/KochavaCoreTVOS/Classes/KVAPartner.h
