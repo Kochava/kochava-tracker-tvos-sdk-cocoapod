@@ -46,4 +46,9 @@ DESC
   s.library = 'KochavaTrackerTVOS'
 
   s.swift_versions = '5.0'
+  
+  # Xcode 12 Bug Fix:  https://github.com/CocoaPods/CocoaPods/issues/10065#issuecomment-694268918
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64' }
+
 end
