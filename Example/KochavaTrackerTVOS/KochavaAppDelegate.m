@@ -28,7 +28,7 @@
 {
     KVALog.shared.level = KVALogLevel.trace;
     
-    NSLog(@"KVACoreProduct.shared = %@", [KVACoreProduct.shared kva_asForContextObjectWithContext:KVAContext.log]);
+    NSLog(@"KVACoreProduct.shared = %@\n ", [KVACoreProduct.shared kva_asForContextObjectWithContext:KVAContext.log]);
 
     [KVATracker.shared startWithAppGUIDString:@"_YOUR_KOCHAVA_APP_GUID_"];
     
