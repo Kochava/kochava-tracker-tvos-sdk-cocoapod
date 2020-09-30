@@ -43,7 +43,7 @@ DESC
   s.platform     = :tvos, '10.2'
   s.vendored_libraries = 'KochavaTrackerTVOS/Libraries/libKochavaCoreTVOS.a', 'KochavaTrackerTVOS/Libraries/libKochavaTrackerTVOS.a'
   s.preserve_paths = 'KochavaTrackerTVOS/Libraries/libKochavaCoreTVOS.a', 'KochavaTrackerTVOS/Libraries/libKochavaTrackerTVOS.a'
-  s.library = 'KochavaTrackerTVOS'
+  # s.library = 'KochavaTrackerTVOS'
 
   s.swift_versions = '5.0'
   
