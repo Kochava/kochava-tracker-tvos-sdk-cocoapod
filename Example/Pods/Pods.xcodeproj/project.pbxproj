@@ -18,38 +18,38 @@
 		};
 		C99FB37E449A3AF181C3CA5CA83BA84D /* KochavaTrackerTVOS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 25DFD4DC2EBBA67CDD7501A8FC23A7C5 /* Build configuration list for PBXAggregateTarget "KochavaTrackerTVOS" */;
+			buildConfigurationList = 83F6E56BDA08AC7D7EE77B51C6044D73 /* Build configuration list for PBXAggregateTarget "KochavaTrackerTVOS" */;
 			buildPhases = (
 			);
 			dependencies = (
-				8164F20328EFAF0390ABED65DD60D8A3 /* PBXTargetDependency */,
+				51DA48DE4235152505DE0C0983E2E72A /* PBXTargetDependency */,
 			);
 			name = KochavaTrackerTVOS;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		5E0ED6DC70F8CB6FDB96D3D469ADA419 /* Pods-KochavaTrackerTVOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD56661F44A04FB9F12275BB41EDECF /* Pods-KochavaTrackerTVOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E1AD1DCEE881F2A70D710EA9DF690C6 /* Pods-KochavaTrackerTVOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D678FA18FACCC9530009BD35768B3F /* Pods-KochavaTrackerTVOS_Example-dummy.m */; };
-		7F3454F2843B993E93E1466924552C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8143A63A7605FCCE182B0B916B4ED614 /* Foundation.framework */; };
+		0C5DB11D393EF6211C53CD54B42A9913 /* Pods-KochavaTrackerTVOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD56661F44A04FB9F12275BB41EDECF /* Pods-KochavaTrackerTVOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EB3673C22AFEF066F75E4AEB8FBAFC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE704B3F7EFE27740FC25A5CE60A6651 /* Foundation.framework */; };
+		AEAE30EC265C328A3EF4706091FDBB2F /* Pods-KochavaTrackerTVOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D678FA18FACCC9530009BD35768B3F /* Pods-KochavaTrackerTVOS_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C7B968F472738A32B8B118BF4263D1F4 /* PBXContainerItemProxy */ = {
+		2ACB98DD9B91F628C8C65D5A6E63F9DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C99FB37E449A3AF181C3CA5CA83BA84D;
 			remoteInfo = KochavaTrackerTVOS;
 		};
-		CAA6BBEAEA29FC6CC6443EFC805F9083 /* PBXContainerItemProxy */ = {
+		9AFB9E4F776B4DBAD81E21CC57673534 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C1FF8D9DFF8B930672F7368DB5FFD9DD;
 			remoteInfo = KochavaCoreTVOS;
 		};
-		F447D088396EA2A64D14151821944765 /* PBXContainerItemProxy */ = {
+		C79B88239F3FE5BE1E96859D8A2BB27A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -59,85 +59,106 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03205304460C50FB724AADABF3DED26E /* KVAAttributionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAAttributionResult.h; path = KochavaTrackerTVOS/Classes/KVAAttributionResult.h; sourceTree = "<group>"; };
 		04D678FA18FACCC9530009BD35768B3F /* Pods-KochavaTrackerTVOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KochavaTrackerTVOS_Example-dummy.m"; sourceTree = "<group>"; };
-		0872D92037DA762D354ACC7BB46444C4 /* KVAIdentityLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAIdentityLink.h; path = KochavaTrackerTVOS/Classes/KVAIdentityLink.h; sourceTree = "<group>"; };
+		0CFADFEBB01D0FFFCF8BA5ECE2BE05B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		133F9B8AF207F606291ED8E5768EC9DD /* libKochavaTrackerTVOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libKochavaTrackerTVOS.a; path = KochavaTrackerTVOS/Libraries/libKochavaTrackerTVOS.a; sourceTree = "<group>"; };
+		14954BC76F1DBDEF619DB10C1C868A94 /* KochavaTrackerTVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KochavaTrackerTVOS.debug.xcconfig; sourceTree = "<group>"; };
 		18665ECED81764168489AD7C88847005 /* KochavaCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KochavaCore.h; path = KochavaCoreTVOS/Classes/KochavaCore.h; sourceTree = "<group>"; };
 		1C194AF9431B994300AD126C9249031A /* KVAEventType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAEventType.h; path = KochavaCoreTVOS/Classes/KVAEventType.h; sourceTree = "<group>"; };
-		1FCAE54D2A203FE722A8B8C4548E5F21 /* KochavaTrackerTVOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KochavaTrackerTVOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		22FF23C7DA006AE63E5ED499ADD6D3ED /* KVAEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAEvents.h; path = KochavaTrackerTVOS/Classes/KVAEvents.h; sourceTree = "<group>"; };
-		2A1388CE31E0D52FC4B63F509AD56CAE /* KVADeeplink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVADeeplink.h; path = KochavaTrackerTVOS/Classes/KVADeeplink.h; sourceTree = "<group>"; };
-		2B8549700D0D6177536E5FBDB24FD8DA /* KVAEvent+Standard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KVAEvent+Standard.h"; path = "KochavaTrackerTVOS/Classes/KVAEvent+Standard.h"; sourceTree = "<group>"; };
+		249B4508663F32CC11B2AD171933CC52 /* KVAPushNotificationsToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAPushNotificationsToken.h; path = KochavaTrackerTVOS/Classes/KVAPushNotificationsToken.h; sourceTree = "<group>"; };
+		275EC2DF7CC0D1BF418CDD7EC17A90CE /* KVAAppTrackingTransparency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAAppTrackingTransparency.h; path = KochavaTrackerTVOS/Classes/KVAAppTrackingTransparency.h; sourceTree = "<group>"; };
 		2C50814DCB25D078A391B3B122A4BC05 /* KVAContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAContext.h; path = KochavaCoreTVOS/Classes/KVAContext.h; sourceTree = "<group>"; };
 		2C7DDE548363A5B7396CD66964082764 /* Pods-KochavaTrackerTVOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KochavaTrackerTVOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2E8341711D28322E605544521EC3FF75 /* Pods-KochavaTrackerTVOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KochavaTrackerTVOS_Example.modulemap"; sourceTree = "<group>"; };
 		31200F969CBBF1EE78F21AA55956337F /* KVAPartner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAPartner.h; path = KochavaCoreTVOS/Classes/KVAPartner.h; sourceTree = "<group>"; };
 		31F1A8F2CB384ABEF87C70A92AD4EE7D /* KVAEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAEvent.h; path = KochavaCoreTVOS/Classes/KVAEvent.h; sourceTree = "<group>"; };
-		33D956A00B1FB6B5782653E52E6C8352 /* KVAAppTrackingTransparency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAAppTrackingTransparency.h; path = KochavaTrackerTVOS/Classes/KVAAppTrackingTransparency.h; sourceTree = "<group>"; };
 		3A4B5C69B9711B10096E4124E5C9300A /* KVAEventSender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAEventSender.h; path = KochavaCoreTVOS/Classes/KVAEventSender.h; sourceTree = "<group>"; };
-		3A7C7D167D38773D5A43B02ABCC6F60E /* KVATracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVATracker.h; path = KochavaTrackerTVOS/Classes/KVATracker.h; sourceTree = "<group>"; };
+		3CC017F5E76D3310960647AC7AF13643 /* KVAPushNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAPushNotifications.h; path = KochavaTrackerTVOS/Classes/KVAPushNotifications.h; sourceTree = "<group>"; };
 		4091DC5DD4C76127AB135A65D168B05D /* KVAFromObjectProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAFromObjectProtocol.h; path = KochavaCoreTVOS/Classes/KVAFromObjectProtocol.h; sourceTree = "<group>"; };
+		43ED13BCF3854E51E72FAB9D73808D6C /* KVACustomIdentifiers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVACustomIdentifiers.h; path = KochavaTrackerTVOS/Classes/KVACustomIdentifiers.h; sourceTree = "<group>"; };
+		441C897EF40271431E8DD57BF849FB27 /* KVAEvent+Standard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KVAEvent+Standard.h"; path = "KochavaTrackerTVOS/Classes/KVAEvent+Standard.h"; sourceTree = "<group>"; };
+		4BB288F569C59B496A7DE0F7D5DEE264 /* KVATracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVATracker.h; path = KochavaTrackerTVOS/Classes/KVATracker.h; sourceTree = "<group>"; };
 		572183E058064C4EE03546766679666D /* Pods-KochavaTrackerTVOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KochavaTrackerTVOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5BADF01842564A7B391892BA699EFE0F /* KVADeeplink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVADeeplink.h; path = KochavaTrackerTVOS/Classes/KVADeeplink.h; sourceTree = "<group>"; };
 		5BED0781751D841FA471E910294C0876 /* Pods-KochavaTrackerTVOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KochavaTrackerTVOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5DE9D0B5C74E5C25D3992D4B0CF34495 /* KVASystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVASystem.h; path = KochavaCoreTVOS/Classes/KVASystem.h; sourceTree = "<group>"; };
-		62048E217FAF623DC4D6DD2CFE98026D /* KochavaTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KochavaTracker.h; path = KochavaTrackerTVOS/Classes/KochavaTracker.h; sourceTree = "<group>"; };
 		63626FCA88A2FE185EF30F206685B782 /* libKochavaCoreTVOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libKochavaCoreTVOS.a; path = KochavaCoreTVOS/Libraries/libKochavaCoreTVOS.a; sourceTree = "<group>"; };
+		657B5C642594CE4D06D6C54E247F2CB7 /* KochavaTrackerTVOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KochavaTrackerTVOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		67003B88216732D5D0154896A54EB7FD /* KVASharedPropertyProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVASharedPropertyProvider.h; path = KochavaCoreTVOS/Classes/KVASharedPropertyProvider.h; sourceTree = "<group>"; };
 		670353166EF2411EE468F800A9328C6B /* Pods-KochavaTrackerTVOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KochavaTrackerTVOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6DDD6FEDFBC032DEDFE0602C5208DA7B /* KVALogLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVALogLevel.h; path = KochavaCoreTVOS/Classes/KVALogLevel.h; sourceTree = "<group>"; };
 		6EB9501A7193EE01722C50210F775A6F /* KVAConsent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAConsent.h; path = KochavaCoreTVOS/Classes/KVAConsent.h; sourceTree = "<group>"; };
 		715FAB9DDB9E9C9A2CFF6DABEA26FB7D /* Pods_KochavaTrackerTVOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KochavaTrackerTVOS_Example.framework; path = "Pods-KochavaTrackerTVOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FF8980DE1DA416A6DEA1E2B6FDD20D /* KochavaCoreTVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KochavaCoreTVOS.release.xcconfig; sourceTree = "<group>"; };
-		796DF7A155230B95F25DEC9975093662 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7977139C98D02C785FFF1093AFFDBC3D /* KVAProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAProduct.h; path = KochavaCoreTVOS/Classes/KVAProduct.h; sourceTree = "<group>"; };
-		8143A63A7605FCCE182B0B916B4ED614 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		879E71F1DA3749053C65004B97B01989 /* libKochavaTrackerTVOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libKochavaTrackerTVOS.a; path = KochavaTrackerTVOS/Libraries/libKochavaTrackerTVOS.a; sourceTree = "<group>"; };
-		98356FFDC34E36701956EC0736D77472 /* KVACustomIdentifiers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVACustomIdentifiers.h; path = KochavaTrackerTVOS/Classes/KVACustomIdentifiers.h; sourceTree = "<group>"; };
+		8904CFEB04F73E5AC9262853AC4321BA /* KVAAttribution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAAttribution.h; path = KochavaTrackerTVOS/Classes/KVAAttribution.h; sourceTree = "<group>"; };
+		8A8CA23A1470FCD12280DBDC5CEBD906 /* KochavaTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KochavaTracker.h; path = KochavaTrackerTVOS/Classes/KochavaTracker.h; sourceTree = "<group>"; };
+		8E4DD633383EAD862340ED4D8765D39B /* KVAAttributionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAAttributionResult.h; path = KochavaTrackerTVOS/Classes/KVAAttributionResult.h; sourceTree = "<group>"; };
 		9AB15C6625612D40B2CEE3471B0536E2 /* KVALog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVALog.h; path = KochavaCoreTVOS/Classes/KVALog.h; sourceTree = "<group>"; };
 		9BD56661F44A04FB9F12275BB41EDECF /* Pods-KochavaTrackerTVOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KochavaTrackerTVOS_Example-umbrella.h"; sourceTree = "<group>"; };
-		9CDAF3803EDFD9435140AD6DBD394BBC /* KVAPushNotificationsToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAPushNotificationsToken.h; path = KochavaTrackerTVOS/Classes/KVAPushNotificationsToken.h; sourceTree = "<group>"; };
 		9D49A9B5FE46E867B090D32DC89B2631 /* KVAAppGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAAppGroups.h; path = KochavaCoreTVOS/Classes/KVAAppGroups.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A222918A42096FB59A21619D3B316E51 /* KVAAsForContextObjectProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAAsForContextObjectProtocol.h; path = KochavaCoreTVOS/Classes/KVAAsForContextObjectProtocol.h; sourceTree = "<group>"; };
-		AD2EE0CB950091FB8AC1654732B34ABF /* KVAAttribution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAAttribution.h; path = KochavaTrackerTVOS/Classes/KVAAttribution.h; sourceTree = "<group>"; };
-		B81A7A8B90984CA6BA87E5B1AB292583 /* KochavaTrackerTVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KochavaTrackerTVOS.debug.xcconfig; sourceTree = "<group>"; };
+		AE704B3F7EFE27740FC25A5CE60A6651 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BAAD9DF0A646F99F879E3616DE384B1A /* KVAConfigureWithObjectProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAConfigureWithObjectProtocol.h; path = KochavaCoreTVOS/Classes/KVAConfigureWithObjectProtocol.h; sourceTree = "<group>"; };
 		BBA1D5B73B33F522953F074D4712050B /* KVACoreProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVACoreProduct.h; path = KochavaCoreTVOS/Classes/KVACoreProduct.h; sourceTree = "<group>"; };
-		BC94D89CECDECF572D4579052FDC41C1 /* KVATrackerProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVATrackerProduct.h; path = KochavaTrackerTVOS/Classes/KVATrackerProduct.h; sourceTree = "<group>"; };
-		C86164DFBB694ADB384A588BB1670BE2 /* KochavaTrackerTVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KochavaTrackerTVOS.release.xcconfig; sourceTree = "<group>"; };
+		C7254BF65E722ACFB5C5CD1B44145E57 /* KVADeeplinks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVADeeplinks.h; path = KochavaTrackerTVOS/Classes/KVADeeplinks.h; sourceTree = "<group>"; };
+		D386F6940475E70478778D9ACA97B1F7 /* KVAPrivacyProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAPrivacyProfile.h; path = KochavaTrackerTVOS/Classes/KVAPrivacyProfile.h; sourceTree = "<group>"; };
+		DE0688FFAAD410EE473AFF4E1CEB4FC5 /* KVAIdentityLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAIdentityLink.h; path = KochavaTrackerTVOS/Classes/KVAIdentityLink.h; sourceTree = "<group>"; };
+		DE380FDF4F9F20C179A54E416BA10A07 /* KVATrackerProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVATrackerProduct.h; path = KochavaTrackerTVOS/Classes/KVATrackerProduct.h; sourceTree = "<group>"; };
 		E028534EE321068D07F0EBA182A4D21E /* KochavaCoreTVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KochavaCoreTVOS.debug.xcconfig; sourceTree = "<group>"; };
-		E257F828220CAEC5D6560D7985C8CD40 /* KVAPushNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAPushNotifications.h; path = KochavaTrackerTVOS/Classes/KVAPushNotifications.h; sourceTree = "<group>"; };
+		E4CB74E15E6899C8FAEE482097FEF671 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F02E6D0F2949780F0428F5A682ECA961 /* Pods-KochavaTrackerTVOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KochavaTrackerTVOS_Example-Info.plist"; sourceTree = "<group>"; };
-		F416EE087FA73ABBCA353A47145CA2CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FEA923681B1403E0B7B5A033A92B85B1 /* KVADeeplinks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVADeeplinks.h; path = KochavaTrackerTVOS/Classes/KVADeeplinks.h; sourceTree = "<group>"; };
+		F0A222755EFF0B8DA1E4A1EF413220D4 /* KochavaTrackerTVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KochavaTrackerTVOS.release.xcconfig; sourceTree = "<group>"; };
+		F2D2CB2D132CD0238ED9E039045B2725 /* KVAEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAEvents.h; path = KochavaTrackerTVOS/Classes/KVAEvents.h; sourceTree = "<group>"; };
+		F5F996490E1D47D861EC667503F31725 /* KVAPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAPrivacy.h; path = KochavaTrackerTVOS/Classes/KVAPrivacy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D0A47752F6F2EF54D792015728E04428 /* Frameworks */ = {
+		8BD76A5B57E181F3F9F1F53EF50CA4BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F3454F2843B993E93E1466924552C05 /* Foundation.framework in Frameworks */,
+				0EB3673C22AFEF066F75E4AEB8FBAFC7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1720C2BC9798F809BFFE92EDAC3DF066 /* Frameworks */ = {
+		1F9FCB3618DC551B524D67B669081319 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				879E71F1DA3749053C65004B97B01989 /* libKochavaTrackerTVOS.a */,
+				DCADEF5968BA4BD0936606315FB57A49 /* tvOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1F9FCB3618DC551B524D67B669081319 /* Frameworks */ = {
+		22084080951C9FA33C7391F820227C69 /* KochavaTrackerTVOS */ = {
 			isa = PBXGroup;
 			children = (
-				D02E61C1D1A202565BB5EEA211202F55 /* tvOS */,
+				8A8CA23A1470FCD12280DBDC5CEBD906 /* KochavaTracker.h */,
+				275EC2DF7CC0D1BF418CDD7EC17A90CE /* KVAAppTrackingTransparency.h */,
+				8904CFEB04F73E5AC9262853AC4321BA /* KVAAttribution.h */,
+				8E4DD633383EAD862340ED4D8765D39B /* KVAAttributionResult.h */,
+				43ED13BCF3854E51E72FAB9D73808D6C /* KVACustomIdentifiers.h */,
+				5BADF01842564A7B391892BA699EFE0F /* KVADeeplink.h */,
+				C7254BF65E722ACFB5C5CD1B44145E57 /* KVADeeplinks.h */,
+				441C897EF40271431E8DD57BF849FB27 /* KVAEvent+Standard.h */,
+				F2D2CB2D132CD0238ED9E039045B2725 /* KVAEvents.h */,
+				DE0688FFAAD410EE473AFF4E1CEB4FC5 /* KVAIdentityLink.h */,
+				F5F996490E1D47D861EC667503F31725 /* KVAPrivacy.h */,
+				D386F6940475E70478778D9ACA97B1F7 /* KVAPrivacyProfile.h */,
+				3CC017F5E76D3310960647AC7AF13643 /* KVAPushNotifications.h */,
+				249B4508663F32CC11B2AD171933CC52 /* KVAPushNotificationsToken.h */,
+				4BB288F569C59B496A7DE0F7D5DEE264 /* KVATracker.h */,
+				DE380FDF4F9F20C179A54E416BA10A07 /* KVATrackerProduct.h */,
+				CAF6C483F6851C54AA0CA28787325DBA /* Frameworks */,
+				8BA17E379DF23C1A7F42D36F3822C527 /* Pod */,
+				DD6AA32614DE0BC1B183EC834C83B0CB /* Support Files */,
 			);
-			name = Frameworks;
+			name = KochavaTrackerTVOS;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		2AEACAC82FD7B581213EB7783D4CD4EF /* Pods */ = {
@@ -148,39 +169,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		53F937E279011FDE1C019BBAD7F37584 /* Pod */ = {
+		3417E80FE6BBD98E1B2478B7AFDEA959 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1FCAE54D2A203FE722A8B8C4548E5F21 /* KochavaTrackerTVOS.podspec */,
-				F416EE087FA73ABBCA353A47145CA2CD /* LICENSE */,
-				796DF7A155230B95F25DEC9975093662 /* README.md */,
+				22084080951C9FA33C7391F820227C69 /* KochavaTrackerTVOS */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6A1F427955448889988FB119A8557AB1 /* KochavaTrackerTVOS */ = {
+		8BA17E379DF23C1A7F42D36F3822C527 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				62048E217FAF623DC4D6DD2CFE98026D /* KochavaTracker.h */,
-				33D956A00B1FB6B5782653E52E6C8352 /* KVAAppTrackingTransparency.h */,
-				AD2EE0CB950091FB8AC1654732B34ABF /* KVAAttribution.h */,
-				03205304460C50FB724AADABF3DED26E /* KVAAttributionResult.h */,
-				98356FFDC34E36701956EC0736D77472 /* KVACustomIdentifiers.h */,
-				2A1388CE31E0D52FC4B63F509AD56CAE /* KVADeeplink.h */,
-				FEA923681B1403E0B7B5A033A92B85B1 /* KVADeeplinks.h */,
-				2B8549700D0D6177536E5FBDB24FD8DA /* KVAEvent+Standard.h */,
-				22FF23C7DA006AE63E5ED499ADD6D3ED /* KVAEvents.h */,
-				0872D92037DA762D354ACC7BB46444C4 /* KVAIdentityLink.h */,
-				E257F828220CAEC5D6560D7985C8CD40 /* KVAPushNotifications.h */,
-				9CDAF3803EDFD9435140AD6DBD394BBC /* KVAPushNotificationsToken.h */,
-				3A7C7D167D38773D5A43B02ABCC6F60E /* KVATracker.h */,
-				BC94D89CECDECF572D4579052FDC41C1 /* KVATrackerProduct.h */,
-				1720C2BC9798F809BFFE92EDAC3DF066 /* Frameworks */,
-				53F937E279011FDE1C019BBAD7F37584 /* Pod */,
-				AF6C860DE7ED3AA5A955F29592AD388E /* Support Files */,
+				657B5C642594CE4D06D6C54E247F2CB7 /* KochavaTrackerTVOS.podspec */,
+				E4CB74E15E6899C8FAEE482097FEF671 /* LICENSE */,
+				0CFADFEBB01D0FFFCF8BA5ECE2BE05B7 /* README.md */,
 			);
-			name = KochavaTrackerTVOS;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		93DE3C717846C11AA4B130BC4C2733F1 /* Support Files */ = {
@@ -201,24 +205,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		98D7596DA6AF21AAE643A32AFC112218 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6A1F427955448889988FB119A8557AB1 /* KochavaTrackerTVOS */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		AF6C860DE7ED3AA5A955F29592AD388E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B81A7A8B90984CA6BA87E5B1AB292583 /* KochavaTrackerTVOS.debug.xcconfig */,
-				C86164DFBB694ADB384A588BB1670BE2 /* KochavaTrackerTVOS.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KochavaTrackerTVOS";
-			sourceTree = "<group>";
-		};
 		B15D618BEADDEAEF32D162C8BB0DC7EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,11 +213,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CAF6C483F6851C54AA0CA28787325DBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				133F9B8AF207F606291ED8E5768EC9DD /* libKochavaTrackerTVOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				98D7596DA6AF21AAE643A32AFC112218 /* Development Pods */,
+				3417E80FE6BBD98E1B2478B7AFDEA959 /* Development Pods */,
 				1F9FCB3618DC551B524D67B669081319 /* Frameworks */,
 				2AEACAC82FD7B581213EB7783D4CD4EF /* Pods */,
 				B15D618BEADDEAEF32D162C8BB0DC7EA /* Products */,
@@ -239,12 +233,22 @@
 			);
 			sourceTree = "<group>";
 		};
-		D02E61C1D1A202565BB5EEA211202F55 /* tvOS */ = {
+		DCADEF5968BA4BD0936606315FB57A49 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				8143A63A7605FCCE182B0B916B4ED614 /* Foundation.framework */,
+				AE704B3F7EFE27740FC25A5CE60A6651 /* Foundation.framework */,
 			);
 			name = tvOS;
+			sourceTree = "<group>";
+		};
+		DD6AA32614DE0BC1B183EC834C83B0CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14954BC76F1DBDEF619DB10C1C868A94 /* KochavaTrackerTVOS.debug.xcconfig */,
+				F0A222755EFF0B8DA1E4A1EF413220D4 /* KochavaTrackerTVOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KochavaTrackerTVOS";
 			sourceTree = "<group>";
 		};
 		E4A9FA0909517C5A39BD0C8B62EC6940 /* KochavaCoreTVOS */ = {
@@ -301,11 +305,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1E12AF299E8A62B0AB548F11A99EE8DC /* Headers */ = {
+		4AEEC2501A42E99F04293A65BF4C5AE5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E0ED6DC70F8CB6FDB96D3D469ADA419 /* Pods-KochavaTrackerTVOS_Example-umbrella.h in Headers */,
+				0C5DB11D393EF6211C53CD54B42A9913 /* Pods-KochavaTrackerTVOS_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,18 +318,18 @@
 /* Begin PBXNativeTarget section */
 		0A3FF2DC11C4F532C50E0CEB33E694C7 /* Pods-KochavaTrackerTVOS_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05EDE82EEA3F9592DB3C26825805864A /* Build configuration list for PBXNativeTarget "Pods-KochavaTrackerTVOS_Example" */;
+			buildConfigurationList = 5412624CC3AAFB87E4B7696355D1292B /* Build configuration list for PBXNativeTarget "Pods-KochavaTrackerTVOS_Example" */;
 			buildPhases = (
-				1E12AF299E8A62B0AB548F11A99EE8DC /* Headers */,
-				56D1EE0F48E308006DFD00E1E3B9CC90 /* Sources */,
-				D0A47752F6F2EF54D792015728E04428 /* Frameworks */,
-				7CF76984563F7A001091EB1EE0E153C6 /* Resources */,
+				4AEEC2501A42E99F04293A65BF4C5AE5 /* Headers */,
+				02B8D723B73D5D9374803C422CF95E3E /* Sources */,
+				8BD76A5B57E181F3F9F1F53EF50CA4BC /* Frameworks */,
+				6DFA88CEB99F569731B9FF02790642B6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				914A077024F9AB12FF49719972DBE283 /* PBXTargetDependency */,
-				C584C734F081A7ED25DA65E081704566 /* PBXTargetDependency */,
+				4E1149A2417158D5107C63FD6371BA9B /* PBXTargetDependency */,
+				B1DF09DC1463B82D1B7D6E30F7C3F5F8 /* PBXTargetDependency */,
 			);
 			name = "Pods-KochavaTrackerTVOS_Example";
 			productName = "Pods-KochavaTrackerTVOS_Example";
@@ -362,7 +366,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7CF76984563F7A001091EB1EE0E153C6 /* Resources */ = {
+		6DFA88CEB99F569731B9FF02790642B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,42 +376,70 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		56D1EE0F48E308006DFD00E1E3B9CC90 /* Sources */ = {
+		02B8D723B73D5D9374803C422CF95E3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E1AD1DCEE881F2A70D710EA9DF690C6 /* Pods-KochavaTrackerTVOS_Example-dummy.m in Sources */,
+				AEAE30EC265C328A3EF4706091FDBB2F /* Pods-KochavaTrackerTVOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8164F20328EFAF0390ABED65DD60D8A3 /* PBXTargetDependency */ = {
+		4E1149A2417158D5107C63FD6371BA9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KochavaCoreTVOS;
 			target = C1FF8D9DFF8B930672F7368DB5FFD9DD /* KochavaCoreTVOS */;
-			targetProxy = F447D088396EA2A64D14151821944765 /* PBXContainerItemProxy */;
+			targetProxy = 9AFB9E4F776B4DBAD81E21CC57673534 /* PBXContainerItemProxy */;
 		};
-		914A077024F9AB12FF49719972DBE283 /* PBXTargetDependency */ = {
+		51DA48DE4235152505DE0C0983E2E72A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KochavaCoreTVOS;
 			target = C1FF8D9DFF8B930672F7368DB5FFD9DD /* KochavaCoreTVOS */;
-			targetProxy = CAA6BBEAEA29FC6CC6443EFC805F9083 /* PBXContainerItemProxy */;
+			targetProxy = C79B88239F3FE5BE1E96859D8A2BB27A /* PBXContainerItemProxy */;
 		};
-		C584C734F081A7ED25DA65E081704566 /* PBXTargetDependency */ = {
+		B1DF09DC1463B82D1B7D6E30F7C3F5F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KochavaTrackerTVOS;
 			target = C99FB37E449A3AF181C3CA5CA83BA84D /* KochavaTrackerTVOS */;
-			targetProxy = C7B968F472738A32B8B118BF4263D1F4 /* PBXContainerItemProxy */;
+			targetProxy = 2ACB98DD9B91F628C8C65D5A6E63F9DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2FD4C92CC26BDB13E81132BA4B9690EF /* Debug */ = {
+		000FB13C2B8B6D0AC12DCA3D24641B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A222755EFF0B8DA1E4A1EF413220D4 /* KochavaTrackerTVOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1755060316F08F182AFFDA7BD1EBCE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14954BC76F1DBDEF619DB10C1C868A94 /* KochavaTrackerTVOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		642424F7C3CE41A9EF9CF6BF185E692E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -430,6 +462,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -468,12 +501,12 @@
 			};
 			name = Debug;
 		};
-		3C309B1BB96CC7D32F06953AFAD7C085 /* Debug */ = {
+		8C1141E652B5459945C7E15943BDBEB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B81A7A8B90984CA6BA87E5B1AB292583 /* KochavaTrackerTVOS.debug.xcconfig */;
+			baseConfigurationReference = E028534EE321068D07F0EBA182A4D21E /* KochavaCoreTVOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -481,12 +514,11 @@
 			};
 			name = Debug;
 		};
-		42B80BCD72FE19D30291BD8D0F65D31A /* Release */ = {
+		9BD95F515D46B299CB37FC9050CD24E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C7DDE548363A5B7396CD66964082764 /* Pods-KochavaTrackerTVOS_Example.release.xcconfig */;
+			baseConfigurationReference = 572183E058064C4EE03546766679666D /* Pods-KochavaTrackerTVOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -509,16 +541,16 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		5365BF64EFE2EA7081C9BF9E709E40B2 /* Release */ = {
+		A070E7EA1F5E84D2F4E2A12C70C9BCD5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -541,6 +573,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -575,53 +608,11 @@
 			};
 			name = Release;
 		};
-		7903D05CE2C68C934803E8B15BDD4B75 /* Release */ = {
+		A1CB7C0BFB16C2C2C3D192015898EC0B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77FF8980DE1DA416A6DEA1E2B6FDD20D /* KochavaCoreTVOS.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9A4B8B9C87508FFF03C44DB1C271D9A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E028534EE321068D07F0EBA182A4D21E /* KochavaCoreTVOS.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Debug;
-		};
-		AF946F685F0A9A82529814A4EA1F6607 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C86164DFBB694ADB384A588BB1670BE2 /* KochavaTrackerTVOS.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D6D6C940DE361251DB74F50EEB30C82F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 572183E058064C4EE03546766679666D /* Pods-KochavaTrackerTVOS_Example.debug.xcconfig */;
+			baseConfigurationReference = 2C7DDE548363A5B7396CD66964082764 /* Pods-KochavaTrackerTVOS_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -644,37 +635,52 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		F45237FA695132D19A069126FEA4A2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77FF8980DE1DA416A6DEA1E2B6FDD20D /* KochavaCoreTVOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05EDE82EEA3F9592DB3C26825805864A /* Build configuration list for PBXNativeTarget "Pods-KochavaTrackerTVOS_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6D6C940DE361251DB74F50EEB30C82F /* Debug */,
-				42B80BCD72FE19D30291BD8D0F65D31A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		25DFD4DC2EBBA67CDD7501A8FC23A7C5 /* Build configuration list for PBXAggregateTarget "KochavaTrackerTVOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C309B1BB96CC7D32F06953AFAD7C085 /* Debug */,
-				AF946F685F0A9A82529814A4EA1F6607 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FD4C92CC26BDB13E81132BA4B9690EF /* Debug */,
-				5365BF64EFE2EA7081C9BF9E709E40B2 /* Release */,
+				642424F7C3CE41A9EF9CF6BF185E692E /* Debug */,
+				A070E7EA1F5E84D2F4E2A12C70C9BCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5412624CC3AAFB87E4B7696355D1292B /* Build configuration list for PBXNativeTarget "Pods-KochavaTrackerTVOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD95F515D46B299CB37FC9050CD24E6 /* Debug */,
+				A1CB7C0BFB16C2C2C3D192015898EC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F6E56BDA08AC7D7EE77B51C6044D73 /* Build configuration list for PBXAggregateTarget "KochavaTrackerTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1755060316F08F182AFFDA7BD1EBCE47 /* Debug */,
+				000FB13C2B8B6D0AC12DCA3D24641B99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -682,8 +688,8 @@
 		F344D78743A36250806CE511B2EA8988 /* Build configuration list for PBXAggregateTarget "KochavaCoreTVOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4B8B9C87508FFF03C44DB1C271D9A5 /* Debug */,
-				7903D05CE2C68C934803E8B15BDD4B75 /* Release */,
+				8C1141E652B5459945C7E15943BDBEB5 /* Debug */,
+				F45237FA695132D19A069126FEA4A2A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
