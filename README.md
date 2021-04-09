@@ -1,7 +1,7 @@
 # KochavaTrackerTVOS
 
 [![Version](https://img.shields.io/cocoapods/v/KochavaTrackerTVOS.svg?style=flat)](http://cocoapods.org/pods/KochavaTrackerTVOS)
-[![Download](https://api.bintray.com/packages/kochava/apple/tracker/images/download.svg)](https://bintray.com/kochava/apple/tracker/_latestVersion)
+[![Releases](https://img.shields.io/github/v/release/kochava/Apple-SwiftPackage-KochavaTracker?include_prereleases&sort=semver)](https://github.com/Kochava/Apple-SwiftPackage-KochavaTracker/releases)
 [![Platform](https://img.shields.io/cocoapods/p/KochavaTrackerTVOS.svg?style=flat)](http://cocoapods.org/pods/KochavaTrackerTVOS)
 [![License](https://img.shields.io/cocoapods/l/KochavaTrackerTVOS.svg?style=flat)](http://cocoapods.org/pods/KochavaTrackerTVOS)
 
@@ -24,7 +24,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Dependencies
 
 * [KochavaCore](https://cocoapods.org/pods/KochavaCoreTVOS)
-[![Version](https://img.shields.io/cocoapods/v/KochavaCoreTVOS.svg?style=flat)](https://cocoapods.org/pods/KochavaCoreTVOS) [ ![Download](https://api.bintray.com/packages/kochava/apple/core/images/download.svg) ](https://bintray.com/kochava/apple/core/_latestVersion)
+[![Version](https://img.shields.io/cocoapods/v/KochavaCoreTVOS.svg?style=flat)](https://cocoapods.org/pods/KochavaCoreTVOS) [![Download](https://img.shields.io/github/v/release/kochava/Apple-SwiftPackage-KochavaCore?include_prereleases&sort=semver)](https://github.com/Kochava/Apple-SwiftPackage-KochavaCore/releases)
 
 ## Installation
 
