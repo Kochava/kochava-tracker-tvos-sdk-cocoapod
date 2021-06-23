@@ -1,6 +1,6 @@
 {
   "name": "KochavaTrackerTVOS",
-  "version": "4.6.1",
+  "version": "4.7.0",
   "summary": "The KochavaTracker module of the KochavaTracker tvOS SDK.",
   "description": "A lightweight and easy to integrate SDK written in Objective-C, providing first-class integration with Kochava’s installation attribution and analytics platform.",
   "homepage": "http://www.kochava.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Kochava/kochava-tracker-tvos-sdk-cocoapod.git",
-    "tag": "4.6.1"
+    "tag": "4.7.0"
   },
   "platforms": {
     "tvos": "10.2"
@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "KochavaCoreTVOS": [
-      "~> 4.6.1"
+      "~> 4.7.0"
     ]
   },
   "vendored_libraries": [
