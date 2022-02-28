@@ -1,7 +1,7 @@
 PODS:
-  - KochavaCoreTVOS (5.1.0)
-  - KochavaTrackerTVOS (5.1.0):
-    - KochavaCoreTVOS (~> 5.1.0)
+  - KochavaCoreTVOS (5.1.1)
+  - KochavaTrackerTVOS (5.1.1):
+    - KochavaCoreTVOS (~> 5.1.1)
 
 DEPENDENCIES:
   - KochavaTrackerTVOS (from `../`)
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KochavaCoreTVOS: 3052f120ae123914cdae3888b74ac9befddb6704
-  KochavaTrackerTVOS: e5545c4bec081b20b66a7275021a584f22a8f724
+  KochavaCoreTVOS: 531b0bfa44102681e7f22196507a59000f20271f
+  KochavaTrackerTVOS: 1a24d2de4f6e2c91922037299f9dc006c0e99602
 
 PODFILE CHECKSUM: c168257d61a9e80166cdcb99f101084b6891038d
 
